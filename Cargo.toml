@@ -1,0 +1,15 @@
+[package]
+name        = "conio"
+version     = "0.1.2"
+authors     = ["3442853561<3442853561@qq.com>"]
+keywords    = ["conio","io"]
+license     = "MIT"
+description = "Console input and output"
+
+[lib]
+name = "conio"
+path = "src/conio/lib.rs"
+
+[[bin]]
+name = "test"
+path = "src/bin/test.rs"
